@@ -1,3 +1,14 @@
+//Скрипт дя анимации с заголовком
+
+jQuery(document).ready(function(){
+	jQuery('.first').animate({"top" : "25%"},300);
+	jQuery('.second').animate({"top" : "30%"},500);
+	jQuery('.header p').animate({"opacity" : "1"},1500);
+	jQuery('.left').delay(300).animate({"left" : "32%"},300);
+	jQuery('.right').delay(300).animate({"right" : "32%"},300);
+});	
+
+
 jQuery(document).ready(function () {
     jQuery(window).scroll(function () {
         if(jQuery(this).scrollTop()>411){
@@ -7,14 +18,6 @@ jQuery(document).ready(function () {
         }
     });
 });    
-//Скрипт дя анимации с заголовком
-
-jQuery(document).ready(function(){
-	jQuery('.first').animate({"top" : "25%"},300);
-	jQuery('.second').animate({"top" : "30%"},500);
-	jQuery('.header p').animate({"opacity" : "1"},1500);
-	jQuery('.left').delay(300).animate({"left" : "32%"},300);
-});	
 
         						 
 
