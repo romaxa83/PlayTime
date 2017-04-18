@@ -81,6 +81,13 @@ ul {
 	border: 1px solid #00a728; 
 	transition: all .5s;
 }
+@media (max-width:768px) {
+	#t-nav .navbar-brand:after {
+		content: ' mobile';
+		font: italic bold 15px Coda,Helvetica,sans-serif;
+	}
+}
+
 /*=== треугольник в выпадающем меню === */ 
 #t-nav .dropdown .dropdown-toggle {position: relative;}
 #t-nav .dropdown > .dropdown-menu:after,
@@ -142,6 +149,9 @@ ul {
 	height: 431px;
 	width: 100%;
 }
+@media (max-width:768px) {
+	.header .col-sm-12{height: 250px}
+}
 /*=заголовок=*/ 
 
 .header .h-caption {
@@ -163,7 +173,7 @@ ul {
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	// transform: rotate(45deg);
+	
 	margin: 20px;
 	text-shadow: 3px 3px 3px rgb(202,198,199);
 	
@@ -188,7 +198,52 @@ ul {
 	opacity: 0;
 	font: bold 25px Coda,Helvetica,sans-serif;
 	color: rgb(0,167,40);
-} 
+}
+// @media (max-width:1273px){
+// 	.first {left: 35%;}
+// 	.second {left: 52%;}
+// }
+@media (max-width:1273px){
+	.first {left: 34.5%;}
+	.second {left: 51%;}
+}
+@media (max-width:990px){
+	.first {left: 35%;}
+	.second {left: 53%;}
+	.header p {left: 33%}
+}
+@media (max-width:768px){
+	.first {left: 35%;}
+	.second {left: 54%;}
+	.first>h2,.second>h2 {
+		font-size: 40px;
+	}
+	.gamepad {
+		display: none;
+	}
+	.header p {
+		left: 33%;
+		bottom: 25%;
+		font-size: 20px;
+	}
+}
+@media (max-width:658px){
+	.first {left: 25%;}
+	.second {left: 54%;}
+}
+@media (max-width:481px){
+	.first>h2,.second>h2 {
+		font-size: 30px;
+	}
+	.header p {
+		left: 15%;
+		font-size: 18px;
+		bottom: 25%;
+	}
+}
+	
+		
+	
 /*= соц. сети =*/ 
 .networks {
 	position: absolute;
@@ -239,6 +294,19 @@ ul {
 .networks ul li:nth-child(2):hover{border-color: rgb(29,161,242)}
 .networks ul li:nth-child(3):hover{border-color: rgb(230,72,84)}
 .networks ul li:nth-child(4):hover{border-color: rgb(80,114,153)}
+
+@media (max-width:768px) {
+	.networks ul {
+		position: relative;
+		bottom: -92px;
+	}
+	.networks ul li:nth-child(1){left: 1px}
+	.networks ul li:nth-child(2){left: 49px}
+	.networks ul li:nth-child(3){left: 98px} 
+	.networks ul li:nth-child(4){left: 147px}
+		
+	
+}
 /*=== Стили заго ===*/ 
 
 /*=== Cтили для со слайдером ===*/
@@ -281,7 +349,7 @@ ul {
 
 /*=== Вторая секция с услугами ===*/
 .first-block,.second-block,
-.service-block .col-md-12,
+.service-block .col-sm-12,
 .slider-block {
 	background: url(../img/white_back_1.jpg) center no-repeat fixed;
 	background-size: cover;
@@ -296,7 +364,7 @@ ul {
 	position: relative;
 }
 .service-block .ser-caption h3 {
-	// color: red;
+	color: red;
 	// border-bottom: 2px solid red;
 }
 // .service-block .ser-caption h3:before {
@@ -406,7 +474,26 @@ ul {
 	background: #ed4e6e;
 	color: #fff;
 }
-	
+
+@media (max-width:768px) {
+	.service-block h3 {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-bottom: 0px;
+	}
+	.service-block .col-sm-12>h3 {
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+	ul.ser-block {
+		padding-top: 0;
+	}	
+}
+
+/*=== Блок с картой ===*/
+#map .container-fluid .map-block .row .col-md-12 .img-thumbnail {
+	border: 2px solid #00a728;
+}  
 
 
 	
@@ -416,9 +503,13 @@ ul {
 	background-size: cover;
 	height: 500px;
 }
-.img-thumbnail {
+
+// @media (max-width:768px) {
+// 	.gallery-block {height: 400px}
+// }
+
 	
-}
+
 
 
 // .g-slide-img {
@@ -429,14 +520,17 @@ ul {
 /*=== Footer ===*/
 .footer {
 	height: 200px;
-	// margin-top: 100px;
 	background-color: rgb(0,167,40);
 }
+	
+@media screen and (min-width:400px) and (max-width:992px) {
+	.footer  {
+		margin-top: 0;
+		background-color: red ;
+	}
+}
 
-
-
-
-
+		
 
 
 
