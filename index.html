@@ -1,603 +1,615 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="content-language" content="ru">
-		<meta name="keywords" content="ключевых слов">
-		<meta name="description" content="Содержимое «description»">
-		<!-- Icon -->
-		<link rel="shortcut icon" type="image/png" href="img/playtime.png">
-		<!-- Style -->
-		<link rel="stylesheet" href="bs/css/bootstrap.css">
-		<link rel="stylesheet" href="css/main-style.css">
-		<link rel="stylesheet" href="slick/slick.css">
-		<link rel="stylesheet" href="slick/slick-theme.css">
-		<!-- Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Coda:400,800" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-		<!-- Script -->
-		<script src=""></script>
-		
-		<title>Play Time</title>
-	</head>
-	<body data-spy=«scroll»data-target=«.navbar»>
-		<div id="wrapper">
-			<nav class="navbar navbar-default top-fixed" id="t-nav" role="navigation">
-				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#">PlayTime</a>
-					</div>
-			
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse navbar-ex1-collapse">
-						<ul class="nav navbar-nav">
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Игры <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li class="dropdown-submenu">
-										<a href="#"class="dropdown-toggle" data-toggle="dropdown">RPG<b class="glyphicon glyphicon-chevron-right"></b></a>
-										<ul class="dropdown-menu">
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-										</ul>
-									</li>
-									<li class="dropdown-submenu">
-										<a href="#"class="dropdown-toggle" data-toggle="dropdown">Шутеры<b class="glyphicon glyphicon-chevron-right"></b></a>
-										<ul class="dropdown-menu">
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-										</ul>
-									</li>
-									<li class="dropdown-submenu">
-										<a href="#"class="dropdown-toggle" data-toggle="dropdown">Симуляторы<b class="glyphicon glyphicon-chevron-right"></b></a>
-										<ul class="dropdown-menu">
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-										</ul>
-									</li>
-									<li class="dropdown-submenu">
-										<a href="#"class="dropdown-toggle" data-toggle="dropdown">Стратегии<b class="glyphicon glyphicon-chevron-right"></b></a>
-										<ul class="dropdown-menu">
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-										</ul>
-									</li>
-									<li class="dropdown-submenu">
-										<a href="#"class="dropdown-toggle" data-toggle="dropdown">Фаитинги<b class="glyphicon glyphicon-chevron-right"></b></a>
-										<ul class="dropdown-menu">
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-										</ul>
-									</li>
-									<li class="dropdown-submenu">
-										<a href="#"class="dropdown-toggle" data-toggle="dropdown">Игры для VR<b class="glyphicon glyphicon-chevron-right"></b></a>
-										<ul class="dropdown-menu">
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-										</ul>
-									</li>
-									<li class="dropdown-submenu">
-										<a href="#"class="dropdown-toggle" data-toggle="dropdown">Для детей<b class="glyphicon glyphicon-chevron-right"></b></a>
-										<ul class="dropdown-menu">
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-											<li><a href="#">Какая-то игра</a></li>
-										</ul>
-									</li>
-									
-								</ul>
-							</li>
-							<li><a href="#service">Услуги</a></li>
-						</ul>
-						<ul class="nav navbar-nav navbar-left">
-							<li><a href="#map">Дислокация</a></li>
-							<li><a href="#gallery">Галерея</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Акции <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Акция</a></li>
-									<li><a href="#">Какая-то еще акция</a></li>
-									<li><a href="#">Другая акция</a></li>
-									<li><a href="#">Самая крутая акция</a></li>
-								</ul>
-							</li>
-						</ul>
-							
-						<form class="navbar-form navbar-right" role="search">
-							<button type="button" class="btn btn-default nav-btn" data-toggle="modal" data-target="#reserv">Бронирование</button>
-							<button type="button" class="btn btn-default nav-btn" data-toggle="modal" data-target="#registration">Регистрация</button>
-						</form>
-					</div><!-- /.navbar-collapse -->
-				</div>
-			</nav><!-- The End class=navbar -->
 
-<!-- Модальное окно для бронирование консолий -->
-			<div class="modal fade" id="reserv">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-							<h4 class="modal-title">Бронирование консолей</h4>
-						</div>
-						<div class="modal-body">
-							<form action="" method="" role="form">
-								<div class="form-group">
-									<label class="checkbox inline"></label>
-  									<input type="checkbox" id="inlineCheckbox1" value="psp1"> Игровая консоль №1 
-								</div>
-								<div class="form-group">	
-									<label class="checkbox inline"></label>
-  									<input type="checkbox" id="inlineCheckbox1" value="psp2"> Игровая консоль №2
-								</div>
-								<div class="form-group">
-									<label class="checkbox inline"></label>
-  									<input type="checkbox" id="inlineCheckbox1" value="psp3"> Игровая консоль №3
-								</div>
-								<div class="form-group">
-									<label class="checkbox inline"></label>
-  									<input type="checkbox" id="inlineCheckbox1" value="psp3"> Игровая консоль c проектор
-								</div>	
-								<div class="form-group">
-									<label class="checkbox inline"></label>
-  									<input type="checkbox" id="inlineCheckbox1" value="psp3"> Виртуальная реальность
-								</div>
-									<div class="form-group">
-									<label for="telephone">Телефон</label>
-									<input type="tel" class="form-control" id="telephone" placeholder="(095) 451 49 91" value="">
-									
-								</div>
-								<div class="form-group">
-									<label for="time">Время бронирование</label>
-									<input type="time" class="form-control input-small" id="time" placeholder="" value="">
-  									<span class="help-block">Выбирите консоль и укажите время бронирования и ваш номер,мы вам перезвоним чтоб потвердить заказ</span>
-								</div>		
-								<button type="submit" class="btn btn-primary">Бронирование</button>
-								<button type="reset" class="btn btn-primary">Очистить</button>
-							</form>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-						</div>
-					</div>
-				</div>
-			</div><!-- The End id=reserv -->
-<!-- Модальное окно для регистрации -->
-			<div class="modal fade" id="registration">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-							<h4 class="modal-title">Регистрация</h4>
-						</div>
-						<div class="modal-body">
-			<!-- Форма регистрации -->
-							<form action="" method="" role="form">
-								<div class="form-group">
-									<label for="name">Имя Фамилия</label>
-									<input type="text" class="form-control" id="name" placeholder="Максим Косцов" value="">
-  									<span class="help-block">Введте ваше имя и фамилию</span>
-								</div>
-								<div class="form-group">
-									<label for="email">E-mail</label>
-									<input type="email" class="form-control" id="email" placeholder="abwer@gmail.com" value="">
-									<span class="help-block">Введте ваш e-mail</span>
-								</div>
-								<div class="form-group">
-									<label for="telephone">Телефон</label>
-									<input type="tel" class="form-control" id="telephone" placeholder="(095) 451 49 91" value="">
-									<span class="help-block">Введте ваш телефон</span>
-								</div>	
-							    <button type="submit" class="btn btn-primary">Отправить</button>
-							    <button type="reset" class="btn btn-primary">Очистить</button>
-							</form>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-						</div>
-					</div>
-				</div>
-			</div><!-- The End id=registration -->
-			
-			<div class="container-fluid header">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="h-caption first" >
-							<h2>play</h2>
-						</div>
-						<div class="h-caption second">
-							<h2>time</h2>
-						</div>
-						<div class="gamepad left"><img src="img/gamepad.png" alt="gamepad"></div>
-						<div class="gamepad right"><img src="img/gamepad.png" alt="gamepad"></div>
-						<p>Первый игровой бар в Херсоне</p>
-						<div class="networks">
-							<ul>
-								<a href="https://www.facebook.com/playtime.kherson/?fref=ts" title="Facebook" target="_blan"><li></li></a>
-								<li><a href="https://www.youtube.com/watch?v=TYvAg3DL-8g&t=416s"></a></li>
-								<li><a href=""></a></li>
-								<li><a href=""></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-<!-- Слайдер -->
-			<div id="game" class="container-fluid slider-block">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="c-caption">
-							<h3>Во что вы будите играть ?</h3>
-							<h3>Выбери свою любимую игру.</h3>
-						</div>
-						<div class="slider">
-						<div class="slide">
-							<img src="img/poster-1.jpg" alt="poster-1" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №1</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-2.jpg" alt="poster-2" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №2</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-3.jpg" alt="poster-3" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №3</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-4.jpg" alt="poster-4" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №4</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-5.jpg" alt="poster-5" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №5</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-6.jpg" alt="poster-6" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №6</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-7.jpg" alt="poster-7" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №7</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-8.jpg" alt="poster-8" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №8</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-9.jpg" alt="poster-9" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №9</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-10.jpg" alt="poster-10" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №10</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-11.jpg" alt="poster-11" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №11</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-12.jpg" alt="poster-12" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №12</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-13.jpg" alt="poster-13" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №13</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-14.jpg" alt="poster-14" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №14</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-15.jpg" alt="poster-15" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №15</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-16.jpg" alt="poster-16" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №16</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-17.jpg" alt="poster-17" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №17</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-18.jpg" alt="poster-18" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №18</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-19.jpg" alt="poster-19" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №19</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-20.jpg" alt="poster-20" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №20</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-21.jpg" alt="poster-21" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №21</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-22.jpg" alt="poster-22" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №22</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-23.jpg" alt="poster-23" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №23</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-24.jpg" alt="poster-24" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №24</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-25.jpg" alt="poster-25" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №25</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-26.jpg" alt="poster-26" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №26</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-27.jpg" alt="poster-27" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №27</h4>
-							</div>
-						</div>
-						<div class="slide">
-							<img src="img/poster-28.jpg" alt="poster-28" class="slide-img img-responsive">
-							<div class="slide-caption">
-								<h4>Постер №28</h4>
-							</div>
-						</div>
-						</div><!-- The End class=slider -->
-					</div>
-				</div>
-			</div><!-- The End class=container-fluid slider-block -->
-				
-<!-- Блок с предоставляемыми услугами -->
-			<div id="service" class="container-fluid service-block">
-				<div class="row">
-					<div class="col-sm-12">
-						<h3>Что вы можете у нас найти?</h3>
-					</div>
-					<div class="col-sm-6 first-block">
-						
-							<h3>Кальян</h3>
-							
-						<ul class="ser-block">
-							<li>
-								<div class="ser-img">
-								<img src="img/hookah.png" alt="img-hookah">
-					    			<div class="ser-info">
-										<h3>Кальяны:</h3>
-										<span>Все о кольяне</span>
-										<p>Здесь будет описание кальяна,то есть разновидность и цена</p>
-									</div>
-								</div>
-							</li>
-           				</ul>
-					</div>
-					<div class="col-sm-6 second-block">
-						<h3>PS4 и VR</h3>
-						<ul class="ser-block">
-							<li>
-								<div class="ser-img">
-								<img src="img/photo5.jpg" alt="img-max">
-					    			<div class="ser-info">
-										<h3>PS4:</h3>
-										<span>бла-бла-бла...</span>
-										<h3>VR:</h3>
-										<span>бла-бла-бла...</span>
-									</div>
-								</div>
-							</li>
-           				</ul>
-					</div>
-					<div class="col-sm-6 third-block">
-						<h3>Бар</h3>
-						<ul class="ser-block">
-							<li>
-								<div class="ser-img">
-								<img src="img/bar.jpg" alt="img-bar">
-					    			<div class="ser-info">
-										<h3>Бар:</h3>
-										<span>бла-бла-бла...</span>
-										<h3>Cork fee:</h3>
-										<span>бла-бла-бла...</span>
-									</div>
-								</div>
-							</li>
-           				</ul>
-					</div>
-					<div class="col-sm-6 fourth-block">
-						<h3>Удобные игровые места</h3>
-						<ul class="ser-block">
-							<li>
-								<div class="ser-img">
-								<img src="img/sofa.jpg" alt="img01">
-					    			<div class="ser-info">
-										<h3>Мягкота</h3>
-										<span>Мягкота уеее</span>
-										
-									</div>
-								</div>
-							</li>
-           				</ul>
-					</div>
-				</div>
-			</div><!-- The End class=container-fluid service-block -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-language" content="ru">
+    <meta name="keywords" content="ключевых слов">
+    <meta name="description" content="Содержимое «description»">
+    <!-- Icon -->
+    <link rel="shortcut icon" type="image/png" href="img/playtime.png">
+    <!-- Style -->
+    <link rel="stylesheet" href="lib/bs/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="lib/slick/slick.css">
+    <link rel="stylesheet" href="lib/slick/slick-theme.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Coda:400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <!-- Script -->
+    <script src=""></script>
+    <title>Play Time</title>
+</head>
 
-			<!-- Блок с картой -->
-			<div id="map" class="container-fluid map-block">
-				<div class="row">
-					<div class="col-md-12">
-						<h3>Вы можете найти нас здесь</h3>
-						<img src="img/map.jpg" alt="map" title="Здесь мы находимся" class="img-responsive img-thumbnail map">
-					</div>
-				</div>
-			</div><!-- The End class=container-fluid map-block -->
-				
-			<div id="gallery" class="container-fluid gallery-block">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="g-caption">
-								<h3>Галерея</h3>
-							</div>
-							<div class="g-slider">
-								<div class="g-slide">
-									<img src="img/photo1.jpg" alt="photo1" class="g-slide-img img-responsive img-thumbnail">
-								</div>
-								<div class="g-slide">
-									<img src="img/photo2.jpg" alt="photo2" class="g-slide-img img-responsive img-thumbnail">
-								</div>
-								<div class="g-slide">
-									<img src="img/photo3.jpg" alt="photo3" class="g-slide-img img-responsive img-thumbnail">
-								</div>
-								<div class="g-slide">
-									<img src="img/photo4.jpg" alt="photo4" class="g-slide-img img-responsive img-thumbnail">
-								</div>
-								<div class="g-slide">
-									<img src="img/photo5.jpg" alt="photo5" class="g-slide-img img-responsive img-thumbnail">
-								</div>
-								<div class="g-slide">
-									<img src="img/photo6.jpg" alt="photo6" class="g-slide-img img-responsive img-thumbnail">
-								</div>
-							</div><!-- The End class=g-slider -->
-						</div>
-					</div>
-				</div><!-- The End class=container-fluid gallery-block -->	
-									
-				<div class="container-fluid footer">
-					<div class="row">
-						<div class="col-md-12">
+<body data-spy=«scroll»data-target=«.navbar»>
+    <div id="wrapper">
+        <nav class="navbar navbar-default top-fixed" id="t-nav" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">PlayTime</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Игры <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">RPG<b class="glyphicon glyphicon-chevron-right"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Шутеры<b class="glyphicon glyphicon-chevron-right"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Симуляторы<b class="glyphicon glyphicon-chevron-right"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Стратегии<b class="glyphicon glyphicon-chevron-right"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Фаитинги<b class="glyphicon glyphicon-chevron-right"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Игры для VR<b class="glyphicon glyphicon-chevron-right"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Для детей<b class="glyphicon glyphicon-chevron-right"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                        <li><a href="#">Какая-то игра</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#service">Услуги</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="#map">Дислокация</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Акции <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Акция</a></li>
+                                <li><a href="#">Какая-то еще акция</a></li>
+                                <li><a href="#">Другая акция</a></li>
+                                <li><a href="#">Самая крутая акция</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-right" role="search">
+                        <button type="button" class="btn btn-default nav-btn" data-toggle="modal" data-target="#reserv">Бронирование</button>
+                        <button type="button" class="btn btn-default nav-btn" data-toggle="modal" data-target="#registration">Регистрация</button>
+                    </form>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        <!-- The End class=navbar -->
+        <!-- Модальное окно для бронирование консолий -->
+        <div class="modal fade" id="reserv">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Бронирование консолей</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="" role="form">
+                            <div class="form-group">
+                                <label class="checkbox inline"></label>
+                                <input type="checkbox" id="inlineCheckbox1" value="psp1"> Игровая консоль №1
+                            </div>
+                            <div class="form-group">
+                                <label class="checkbox inline"></label>
+                                <input type="checkbox" id="inlineCheckbox2" value="psp2"> Игровая консоль №2
+                            </div>
+                            <div class="form-group">
+                                <label class="checkbox inline"></label>
+                                <input type="checkbox" id="inlineCheckbox3" value="psp3"> Игровая консоль №3
+                            </div>
+                            <div class="form-group">
+                                <label class="checkbox inline"></label>
+                                <input type="checkbox" id="inlineCheckbox4" value="psp3"> Игровая консоль c проектор
+                            </div>
+                            <div class="form-group">
+                                <label class="checkbox inline"></label>
+                                <input type="checkbox" id="inlineCheckbox5" value="psp3"> Виртуальная реальность
+                            </div>
+                            <div class="form-group">
+                                <label for="telephone">Телефон</label>
+                                <input type="tel" class="form-control" id="telephone" placeholder="(095) 451 49 91" value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Время бронирование</label>
+                                <input type="time" class="form-control input-small" id="time" placeholder="" value="">
+                                <span class="help-block">Выбирите консоль и укажите время бронирования и ваш номер,мы вам перезвоним чтоб потвердить заказ</span>
+                            </div>
+                            <button type="submit" class="btn btn-primary my-btn">Бронирование</button>
+                            <button type="reset" class="btn btn-primary my-btn">Очистить</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default my-btn" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- The End id=reserv -->
+        <!-- Модальное окно для регистрации -->
+        <div class="modal fade" id="registration">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Регистрация</h4>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Форма регистрации -->
+                        <form action="" method="" role="form">
+                            <div class="form-group">
+                                <label for="name">Имя Фамилия</label>
+                                <input type="text" class="form-control" id="name" placeholder="Максим Косцов" value="">
+                                <span class="help-block">Введте ваше имя и фамилию</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="abwer@gmail.com" value="">
+                                <span class="help-block">Введте ваш e-mail</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="telephone">Телефон</label>
+                                <input type="tel" class="form-control" id="telephone" placeholder="(095) 451 49 91" value="">
+                                <span class="help-block">Введте ваш телефон</span>
+                            </div>
+                            <button type="submit" class="btn btn-primary my-btn">Отправить</button>
+                            <button type="reset" class="btn btn-primary my-btn">Очистить</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default my-btn" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- The End id=registration -->
+        <div class="container-fluid header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="h-caption first">
+                        <h2>play</h2>
+                    </div>
+                    <div class="h-caption second">
+                        <h2>time</h2>
+                    </div>
+                    <div class="gamepad left"><img src="img/gamepad.png" alt="gamepad"></div>
+                    <div class="gamepad right"><img src="img/gamepad.png" alt="gamepad"></div>
+                    <p>Первый игровой бар в Херсоне</p>
+                    <div class="networks">
+                        <ul>
+                            <a href="https://www.facebook.com/playtime.kherson/?fref=ts" title="Facebook" target="_blan">
+                                <li></li>
+                            </a>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=TYvAg3DL-8g&t=416s"></a>
+                            </li>
+                            <li>
+                                <a href=""></a>
+                            </li>
+                            <li>
+                                <a href=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Слайдер -->
+        <div id="game" class="container-fluid slider-block">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="c-caption">
+                        <h3>Во что вы будите играть ?</h3>
+                        <h3>Выбери свою любимую игру.</h3>
+                    </div>
+                    <div class="slider">
+                        <div class="slide">
+                            <img src="img/poster-1.jpg" alt="poster-1" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №1</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-2.jpg" alt="poster-2" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №2</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-3.jpg" alt="poster-3" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №3</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-4.jpg" alt="poster-4" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №4</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-5.jpg" alt="poster-5" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №5</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-6.jpg" alt="poster-6" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №6</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-7.jpg" alt="poster-7" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №7</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-8.jpg" alt="poster-8" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №8</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-9.jpg" alt="poster-9" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №9</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-10.jpg" alt="poster-10" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №10</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-11.jpg" alt="poster-11" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №11</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-12.jpg" alt="poster-12" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №12</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-13.jpg" alt="poster-13" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №13</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-14.jpg" alt="poster-14" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №14</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-15.jpg" alt="poster-15" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №15</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-16.jpg" alt="poster-16" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №16</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-17.jpg" alt="poster-17" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №17</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-18.jpg" alt="poster-18" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №18</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-19.jpg" alt="poster-19" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №19</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-20.jpg" alt="poster-20" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №20</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-21.jpg" alt="poster-21" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №21</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-22.jpg" alt="poster-22" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №22</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-23.jpg" alt="poster-23" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №23</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-24.jpg" alt="poster-24" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №24</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-25.jpg" alt="poster-25" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №25</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-26.jpg" alt="poster-26" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №26</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-27.jpg" alt="poster-27" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №27</h4>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/poster-28.jpg" alt="poster-28" class="slide-img img-responsive">
+                            <div class="slide-caption">
+                                <h4>Постер №28</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- The End class=slider -->
+                </div>
+            </div>
+        </div>
+        <!-- The End class=container-fluid slider-block -->
+        <!-- Блок с предоставляемыми услугами -->
+        <div id="service" class="container-fluid service-block">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Что вы можете у нас найти?</h3>
+                </div>
+                <div class="col-sm-6 first-block">
+                    <h3>Кальян</h3>
+                    <ul class="ser-block">
+                        <li>
+                            <div class="ser-img">
+                                <img src="img/hookah.png" alt="img-hookah">
+                                <div class="ser-info">
+                                    <h3>Кальяны:</h3>
+                                    <span>Все о кольяне</span>
+                                    <p>Здесь будет описание кальяна,то есть разновидность и цена</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 second-block">
+                    <h3>PS4 и VR</h3>
+                    <ul class="ser-block">
+                        <li>
+                            <div class="ser-img">
+                                <img src="img/photo5.jpg" alt="img-max">
+                                <div class="ser-info">
+                                    <h3>PS4:</h3>
+                                    <span>бла-бла-бла...</span>
+                                    <h3>VR:</h3>
+                                    <span>бла-бла-бла...</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 third-block">
+                    <h3>Бар</h3>
+                    <ul class="ser-block">
+                        <li>
+                            <div class="ser-img">
+                                <img src="img/bar.jpg" alt="img-bar">
+                                <div class="ser-info">
+                                    <h3>Бар:</h3>
+                                    <span>бла-бла-бла...</span>
+                                    <h3>Cork fee:</h3>
+                                    <span>бла-бла-бла...</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 fourth-block">
+                    <h3>Игровые места</h3>
+                    <ul class="ser-block">
+                        <li>
+                            <div class="ser-img">
+                                <img src="img/sofa.jpg" alt="img01">
+                                <div class="ser-info">
+                                    <h3>Мягкота</h3>
+                                    <span>Мягкота уеее</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- The End class=container-fluid service-block -->
+        <!-- Блок с картой -->
+        <div id="map" class="container-fluid map-block">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Вы можете найти нас здесь</h3>
+                    <img src="img/map.jpg" alt="map" title="Здесь мы находимся" class="img-responsive img-thumbnail map">
+                </div>
+            </div>
+        </div>
+        <!-- The End class=container-fluid map-block -->
+        <div id="gallery" class="container-fluid gallery-block">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="g-caption">
+                        <h3>Галерея</h3>
+                    </div>
+                    <div class="g-slider">
+                        <div class="g-slide">
+                            <img src="img/photo1.jpg" alt="photo1" class="g-slide-img img-responsive img-thumbnail">
+                        </div>
+                        <div class="g-slide">
+                            <img src="img/photo2.jpg" alt="photo2" class="g-slide-img img-responsive img-thumbnail">
+                        </div>
+                        <div class="g-slide">
+                            <img src="img/photo3.jpg" alt="photo3" class="g-slide-img img-responsive img-thumbnail">
+                        </div>
+                        <div class="g-slide">
+                            <img src="img/photo4.jpg" alt="photo4" class="g-slide-img img-responsive img-thumbnail">
+                        </div>
+                        <div class="g-slide">
+                            <img src="img/photo5.jpg" alt="photo5" class="g-slide-img img-responsive img-thumbnail">
+                        </div>
+                        <div class="g-slide">
+                            <img src="img/photo6.jpg" alt="photo6" class="g-slide-img img-responsive img-thumbnail">
+                        </div>
+                    </div>
+                    <!-- The End class=g-slider -->
+                </div>
+            </div>
+        </div>
+        <!-- Кнопка скролла-->
+        <a href="#" class="scroll-up">Наверх</a>
+        <!-- The End class=container-fluid gallery-block -->
+        <footer id="footer-Section">
+            <div class="footer-top-layout">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class=" col-lg-12">
+                            <div class="col-sm-4">
+                                <div class="footer-col-item">
+                                    <h4>Мы находимся по адрессу:</h4>
+                                    <address>
+                                        г. Херсон
+                                        <br> ул. Суворова 26
+                                    </address>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="footer-col-item">
+                                    <h4>Наш телефон:</h4>
+                                    <p><span>МТС:</span>(095) 451-49-91</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="footer-col-item footer-logo">
+                                    <h4>Наши партнеры:</h4>
+									<ul>
+										<li><a href="#"><img src="img/hhks.png" alt="img-logo1" class="img-responsive" title="hookah house"></a></li>
+										<li><a href="#"><img src="img/heis.png" alt="img-logo2" class="img-responsive" title="heisenberg"></a></li>
+										<li><a href="#"><img src="img/lumber.png" alt="img-logo3" class="img-responsive" title="lumber"></a></li>
+										<li><a href="#"><img src="img/drinkxs.png" alt="img-logo4" class="img-responsive" title="drinkxs"></a></li>
+									</ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-layout">
+                <div class="socialMedia-footer">
+                    <a href="#"><img src="img/socialMedia_01.png"></a>
+                    <a href="#"><img src="img/socialMedia_02.png"></a>
+                    <a href="#"><img src="img/socialMedia_03.png"></a>
+                    <a href="#"><img src="img/socialMedia_04.png"></a>
+                    <a href="#"><img src="img/socialMedia_05.png"></a>
+                </div>
+                <div class="copyright-tag">Copyright © 2017 PlayTime. All Rights Reserved.</div>
+                <div class="copyright-tag">Created by Rodomanov Roman Email:<a href="mailto:romaxa83@ukr.net">romaxa83@ukr.net</a></div>
+            </div>
+        </footer>
+    </div>
+    <!-- THE END ID=wrapper -->
+    <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="lib/jQuery/jquery-3.2.0.min.js" defer></script>
+    <!-- Bootstrap -->
+    <script src="lib/bs/js/bootstrap.min.js" defer></script>
+    <!-- Slick  -->
+    <script src="lib/slick/slick.min.js" defer></script>
+    
+    <!-- My script -->
+    <script src="my-js/my-js.js" defer></script>
+</body>
 
-						</div>
-					</div>
-				</div><!-- The End class=container-fluid footer -->
-
-
-			
-		
-
-			
-
-									
-									
-		</div><!-- THE END ID=wrapper -->
-
-		<!-- Scripts -->
-		<!-- jQuery -->
-		<script src="jQuery/jquery-3.2.0.min.js" defer></script>
-		<!-- Bootstrap -->
-		<script src="bs/js/bootstrap.min.js" defer></script>
-		<!-- Slick  -->
-		<script src="slick/slick.min.js" defer></script>
-		<!-- JQueryRotate -->
-		<script src="my-js/jqueryrotate.js" defer></script>
-		<!-- My script -->
-		<script src="my-js/my-js.js" defer></script>
-
-	</body>
 </html>
-									
-									
-									
-									
-
-
-
-
-
-
-
-						
-
-
-
-
-
-							
-								
-							
-									
-
-							
-								
-							
-								
